@@ -1,6 +1,7 @@
 # datastructures-algorithms
 
 /*
+
 1. Stacks & Queues:
 Stacks - stores items into last-in, first-out order
 Queues - first-in, first-out order
@@ -33,5 +34,5 @@ Queues - first-in, first-out order
 4. Array - Organises items sequentially in memory
     Can be looked up by key, can insert something in the middle (shift & delete in the middle of an array)
 
-    value with _(variableName) means it's private and we should not be accessing it outside of the class. 
+    value with _(variableName) means it's private and we should not be accessing it outside of the class.
 */
