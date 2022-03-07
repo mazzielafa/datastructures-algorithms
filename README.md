@@ -25,4 +25,13 @@ Queues - first-in, first-out order
     Fast look ups
     Can be used to find the value of an interger - when implementing, need to define how much
     Once 50% full, need to double it
+
+    Set - Doesn't save a value, saves a property name
+    .has .get .set
+    {}, Map, Set
+
+4. Array - Organises items sequentially in memory
+    Can be looked up by key, can insert something in the middle (shift & delete in the middle of an array)
+
+    value with _(variableName) means it's private and we should not be accessing it outside of the class. 
 */
