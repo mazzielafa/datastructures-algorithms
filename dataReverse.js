@@ -14,20 +14,21 @@
           [1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,1,0,1,0,1,0]
           */
 
-      function dataReverse(data) {
-        // Your code here
-        //order of segments need to be reversed
-        //total number will be a multiple of 8
-        // .reverse()
-
-        let arrReverse = [1]
-        for (let i=1; i < arrReverse.length; i++){
-          i+-
-          arrReverse.map(data[i])
-        }
-        return data 
-       }
-      //   while(arrReverse.length){
-      //     arrReverse.push(arrReverse.pop())
-      //   }
-      //   return arrReverse.length
+  function dataReverse(data) {
+    // Your code here
+    //I need to reverse the stream of data
+    //Once reversed should become 10101010  00001111  00000000  11111111
+    //Total number of bits will always be a multiple of 8
+    //create new array
+    //Loop through the array
+    //index [i] needs to +=8 
+    //reverse the date 
+    //use functions such as shift, reverse, push, pop if needed
+    
+    for (let i=0; i <= data.length-1; i++){
+    let revData = []
+    data[i] = data[data.length -8 -i]
+    data[data.length -8 -i] = revData[i]
+    }
+      return data.length
+}
