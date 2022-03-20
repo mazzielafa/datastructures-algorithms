@@ -1,4 +1,4 @@
-/* 6. A stream of data is received and needs to be reversed.
+/* A stream of data is received and needs to be reversed.
 
           Each segment is 8 bits long, meaning the order of these segments needs to be reversed, for example:
 
@@ -19,7 +19,7 @@ function dataReverse(data) {
   //I need to reverse the stream of data
   //Once reversed should become 10101010 00001111 00000000 11111111
   //Total number of bits will always be a multiple of 8
-  //create new array 
+  //create new array
   //Loop through the array
   //reverse the data
   //use functions such as shift, reverse, push, pop if needed

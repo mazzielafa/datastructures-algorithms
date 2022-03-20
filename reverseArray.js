@@ -1,4 +1,4 @@
-/*  1. Function Description
+/*  Function Description
 Complete the function reverseArray in the editor below.
 reverseArray has the following parameter(s):
 
