@@ -10,10 +10,11 @@ Examples
 [1,2,2,3,3,3,4,3,3,3,2,2,1] should return 4, because it appears 1 time (which is odd). */
 
 function findOdd(A) {
-    //happy coding!
-    // HOFs // Loop the array?
+    // HOFs? //Loop the array?
     // Find how many odd numbers
-  //   
+    // will need to loop twice through the numbers
+    //only if divisible by 2 should the number be returned
+
     for (let i = 0; i < A.length; i++){
       let count = 0
       for (let j = 0; j < A.length; j++){
