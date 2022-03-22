@@ -4,3 +4,15 @@
           "the-stealth-warrior" gets converted to "theStealthWarrior"
           "The_Stealth_Warrior" gets converted to "TheStealthWarrior"
           */
+
+function toCamelCase(str){
+    //will use regex to avoid multiple lines of code.
+    //regex will create expressions that will search and replace my operation
+    //place regex in a seperate variable and then call it in the return
+    let regEx = /[-_]\w/ig
+    //use match with regEx
+    return str.replace(regEx,(match) =>{
+        return match[1].toUpperCase()
+    })
+          
+}
